@@ -1,0 +1,94 @@
+#app
+{
+    background: #f5f8fa;
+}
+/*------------------------------------*/
+@media screen and (max-width: 640px)
+{
+    #imgcard
+    {
+        right:130px;
+    }
+}
+/*-----------------*/
+.sidebar
+{
+    position: fixed;
+    width: 300px;
+    z-index:30;
+    overflow-y: auto;
+    left: 0;
+    top: 0;
+    height:100%;
+    background:#f5f8fa;
+    border-right: 0.3px solid #A3A4A1;
+    color:#838282;
+    
+}
+
+.item
+{
+    padding:5px;
+    list-style: none;
+    transition: 1s;
+}
+
+.itemmenu
+{
+    margin-left:3%;
+    font-family: Avenir-Roman,Apple-System,Arial,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STXihei,sans-serif;
+}
+
+.iconmenu
+{
+    margin-left: 5%;
+}
+
+.item:hover
+{
+    cursor:pointer;
+    background:rgba(0,0,0,.15);
+    transition: 0.5s;
+}
+
+ul:hover{
+    background:rgba(0,0,0,.15);
+}
+
+.hr
+{
+    border: 0.3px solid #A3A4A1;
+}
+
+.all
+{
+    background: rgba(0,0,0,.5);
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    overflow-y: auto;
+    overflow-x: auto;
+    position: fixed;
+}
+
+.item-son
+{
+    list-style: none;
+    margin-left: 0%;
+    font-family: Avenir-Roman,Apple-System,Arial,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STXihei,sans-serif;
+    background: rgba(0,0,0,.16);
+    color:#838282;
+    text-align: center;
+}
+
+.item-son:hover
+{
+    cursor:pointer;
+    background: rgba(0,0,0,.2);
+}
+
+.itemnav
+{
+    /*display: none;*/
+}

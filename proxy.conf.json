@@ -1,0 +1,7 @@
+{
+    "/api/*":{
+        "target":"https://maapi.api/api/v1",
+        "source":true,
+        "logLevel":"debug"
+    }
+}
